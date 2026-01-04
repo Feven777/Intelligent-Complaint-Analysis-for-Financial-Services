@@ -9,5 +9,4 @@ def build_vector_store(chunks, metadatas, embedding_model):
         embedding=embedding_model,
         persist_directory=VECTOR_STORE_DIR
     )
-    vector_store.persist()
     return vector_store

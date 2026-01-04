@@ -1,9 +1,9 @@
 from .data_loader import load_clean_data
 from .chunking import create_text_chunks
 from .embedding import load_embedding_model
-from vector_store import build_vector_store
-from config import TEXT_COLUMN, METADATA_COLUMNS
-from config import TEXT_COLUMN, METADATA_COLUMNS, SAMPLE_SIZE
+from .vector_store import build_vector_store
+from .config import TEXT_COLUMN, METADATA_COLUMNS
+from .config import TEXT_COLUMN, METADATA_COLUMNS, SAMPLE_SIZE
 
 
 def main():
