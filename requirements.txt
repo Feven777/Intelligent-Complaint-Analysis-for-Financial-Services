@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+sentence-transformers
+faiss-cpu
+scikit-learn
+tqdm
+gradio      # if you pick Gradio for UI
+streamlit   # if you pick Streamlit instead
+langchain
+langchain-community
+langchain-chroma
+langchain-text-splitters
+chromadb
+pyyaml
+python-dotenv
