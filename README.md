@@ -87,7 +87,7 @@ Intelligent-Complaint-Analysis-for-Financial-Services/
 │
 ├── README.md # Project documentation
 └── requirements.txt # Python dependencies
-# ⚙️ Setup & Installation
+## ⚙️ Setup & Installation
 
 1. **Clone the repository**
 
