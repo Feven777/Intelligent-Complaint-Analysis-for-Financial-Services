@@ -8,7 +8,10 @@ scikit-learn
 tqdm
 gradio      # if you pick Gradio for UI
 streamlit   # if you pick Streamlit instead
-langchain   # optional for later, but useful
-chroma-db   # optional, only if you choose chroma
+langchain
+langchain-community
+langchain-chroma
+langchain-text-splitters
+chromadb
 pyyaml
 python-dotenv
