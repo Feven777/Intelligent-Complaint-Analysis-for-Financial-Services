@@ -95,25 +95,25 @@ Intelligent-Complaint-Analysis-for-Financial-Services/
 git clone https://github.com/your-username/Intelligent-Complaint-Analysis-for-Financial-Services.git
 cd Intelligent-Complaint-Analysis-for-Financial-Services
 
-# Create a virtual environment
+## Create a virtual environment
 
-# Linux / macOS
+### Linux / macOS
 python -m venv .venv
 source .venv/bin/activate
 
-# Windows
+### Windows
 python -m venv .venv
 .venv\Scripts\activate
 
-# Install dependencies
+## Install dependencies
 
 pip install -r requirements.txt
 
 ## 🚀 Usage
-# 1. Run Exploratory Data Analysis (EDA)
+### 1. Run Exploratory Data Analysis (EDA)
 
 notebooks/eda_task1.ipynb
 
-# 2. Build Embeddings & Vector Store
+### 2. Build Embeddings & Vector Store
 
 python -m src.build_embeddings
